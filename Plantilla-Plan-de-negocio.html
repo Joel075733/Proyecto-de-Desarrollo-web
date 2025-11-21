@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Plantilla - Plan de negocio</title>
+  <link rel="stylesheet" href="Css/estilos.css" />
+  <link rel="stylesheet" href="Css/estiloss.css" />
+  <style>
+    .container{max-width:900px;margin:28px auto;padding:18px}
+    .section{background:rgba(0,0,0,0.06);padding:14px;border-radius:8px;margin-bottom:18px}
+    .section h2{margin:0 0 8px}
+    .hint{color:#ddd;font-size:0.95rem}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="res/logo.png" alt="Logo" />
+      <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+    </div>
+    <nav id="dropdownMenu" class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="acerca.html">Acerca</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="contenido container">
+    <h1>Plantilla — Plan de negocio</h1>
+
+    <section class="section" id="resumen-ejecutivo">
+      <h2>1. Resumen ejecutivo</h2>
+      <p class="hint">(Pega aquí un resumen breve: misión, visión, propuesta de valor, metas y necesidades de financiación).</p>
+      <div><!-- espacio para pegar texto --></div>
+    </section>
+
+    <section class="section" id="descripcion">
+      <h2>2. Descripción del negocio</h2>
+      <p class="hint">(Nombre legal, tipo de empresa, ubicación, etapa, producto/servicio principal).</p>
+      <div><!-- espacio para pegar texto --></div>
+    </section>
+
+    <section class="section" id="analisis-mercado">
+      <h2>3. Estudio de mercado</h2>
+      <p class="hint">(Tendencias, competidores, precio promedio, segmentación de clientes).</p>
+      <div><!-- espacio para pegar texto --></div>
+    </section>
+
+    <section class="section" id="estudio-cliente">
+      <h2>4. Estudio del cliente</h2>
+      <p class="hint">(Perfil demográfico, conductas, canales de información, intereses).</p>
+      <div><!-- espacio para pegar texto --></div>
+    </section>
+
+    <section class="section" id="modelo-negocio">
+      <h2>5. Modelo de negocio</h2>
+      <p class="hint">(Descripción del producto, producción, materiales, propuesta de valor y precios)</p>
+      <div><!-- espacio para pegar texto --></div>
+    </section>
+
+    <section class="section" id="ventaja-competitiva">
+      <h2>6. Ventaja competitiva</h2>
+      <p class="hint">(Qué diferencia a la oferta: coste, sostenibilidad, adaptabilidad, servicios añadidos).</p>
+      <div><!-- espacio para pegar texto --></div>
+    </section>
+
+    <div style="display:flex;gap:10px">
+      <button onclick="window.print()">Imprimir / Guardar PDF</button>
+      <a href="Plan de negocio.html" style="align-self:center;color:#fff;background:#2b6cb0;padding:8px 12px;border-radius:6px;text-decoration:none">Abrir versión completa</a>
+    </div>
+  </main>
+
+  <script src="JS.js"></script>
+</body>
+</html>
